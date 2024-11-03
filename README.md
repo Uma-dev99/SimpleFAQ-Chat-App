@@ -42,6 +42,6 @@ This project is a Simple FAQ Chatbot that leverages RDF, NLTK, Ontology, and SPA
 
 Here are a couple of screenshots to demonstrate the chatbot in action:   
 
-![Screenshot 1](Screenshot 2024-11-04 015445.png)
-![Screenshot 2](Screenshot 2024-11-04 015421.png)
+![Screenshot 1](1.png)
+![Screenshot 2](2.png)
    
