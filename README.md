@@ -2,7 +2,9 @@
 
 ## Disclaimer
 <br>
+
 This project was created as part of an assessment for Williams Lea. **Visitors are kindly requested not to call or reach out regarding this project.**
+
 <hr>
 
 # SimpleFAQ-Chat-App
