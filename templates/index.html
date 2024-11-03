@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FAQ Chatbot</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body> 
+    <h1>FAQ Chatbot</h1>
+    <form method="POST" action="/ask">
+        <input type="text" name="query" placeholder="Ask a question..." required>
+        <button type="submit">Ask</button>
+    </form>
+    {% if user_query %}
+        <h2>Your question: {{ user_query }}</h2>
+        <h2>Answer: {{ answer }}</h2>
+    {% endif %}
+</body>
+</html>
