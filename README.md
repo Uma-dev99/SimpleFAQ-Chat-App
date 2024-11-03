@@ -1,8 +1,8 @@
-<hr style="border: 1px solid #ff4500;" />
-## Disclaimer:
-This project was created as part of an assessment for Williams Lea. **Visitors are kindly requested not to call or reach out regarding this project.**
+<hr>
+## Disclaimer
 
-<hr style="border: 1px solid #ff4500;" />
+This project was created as part of an assessment for Williams Lea. **Visitors are kindly requested not to call or reach out regarding this project.**
+<hr>
 
 # SimpleFAQ-Chat-App
 
