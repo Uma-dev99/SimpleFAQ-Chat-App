@@ -45,3 +45,10 @@ Here are a couple of screenshots to demonstrate the chatbot in action:
 ![Screenshot 1](1.png)
 ![Screenshot 2](2.png)
    
+<hr>
+
+## Disclaimer
+
+This project was created as part of an assessment for Williams Lea. **Visitors are kindly requested not to call or reach out regarding this project.**
+
+<hr>
