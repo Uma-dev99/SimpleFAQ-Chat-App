@@ -1,11 +1,9 @@
-<hr color="White">
+<hr style="border: 1px solid #ff4500;" />
 
-## Disclaimer
-
+<span style="color:#ff4500; font-weight:bold;">Disclaimer:</span>  
 This project was created as part of an assessment for Williams Lea. **Visitors are kindly requested not to call or reach out regarding this project.**
 
-<hr color="White">
-
+<hr style="border: 1px solid #ff4500;" />
 
 # SimpleFAQ-Chat-App
 
