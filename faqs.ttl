@@ -1,0 +1,19 @@
+@prefix faq: <http://example.org/faq#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+faq:FAQ a rdfs:Class .
+faq:Question a rdfs:Class .
+faq:Answer a rdfs:Class .
+
+faq:faq1 a faq:FAQ ;
+    faq:hasQuestion "What is your return policy?" ;
+    faq:hasAnswer "You can return any item within 30 days of purchase." .
+
+faq:faq2 a faq:FAQ ;
+    faq:hasQuestion "How do I track my order?" ;
+    faq:hasAnswer "You can track your order using the tracking link sent to your email." .
+
+faq:faq3 a faq:FAQ ;
+    faq:hasQuestion "What payment methods do you accept?" ;
+    faq:hasAnswer "We accept credit cards, PayPal, and bank transfers." .
