@@ -3,23 +3,19 @@ import nltk
 from nltk.tokenize import word_tokenize
 from rdflib import Graph, Namespace
 
-# Initialize Flask app
 app = Flask(__name__)
 
-# Ensure the punkt tokenizer is downloaded
 try:
     nltk.data.find('tokenizers/punkt_tab')
 except LookupError:
     nltk.download('punkt_tab')
 
-# Load RDF data
 g = Graph()
 g.parse("faqs.ttl", format="ttl")
 
 faq_ns = Namespace("http://example.org/faq#")
 
 def find_answer(user_query):
-    """Find an answer to the user's query based on keyword matching."""
     query_tokens = word_tokenize(user_query.lower())
     answers = []
 
@@ -43,12 +39,10 @@ def find_answer(user_query):
 
 @app.route('/')
 def home():
-    """Render the home page."""
     return render_template('index.html')
 
 @app.route('/ask', methods=['POST'])
 def ask():
-    """Handle user query and provide an answer."""
     user_query = request.form['query']
     answer = find_answer(user_query)
     return render_template('index.html', user_query=user_query, answer=answer)
