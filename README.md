@@ -1,10 +1,10 @@
-<hr>
+<hr color="White">
 
 ## Disclaimer
 
 This project was created as part of an assessment for Williams Lea. **Visitors are kindly requested not to call or reach out regarding this project.**
 
-<hr>
+<hr color="White">
 
 
 # SimpleFAQ-Chat-App
