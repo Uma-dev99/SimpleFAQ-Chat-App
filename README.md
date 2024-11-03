@@ -27,3 +27,21 @@ This project is a Simple FAQ Chatbot that leverages RDF, NLTK, Ontology, and SPA
    ```bash
    git clone https://github.com/Uma-dev99/SimpleFAQ-Chat-App.git
    ```
+2. Install Dependencies: <br>
+   ```
+      pip install -r requirements.txt
+
+   ```
+3. Run the Chatbot: <br>
+   ```
+      python app.py
+   
+   ```
+
+## Screenshots
+
+Here are a couple of screenshots to demonstrate the chatbot in action:   
+
+![Screenshot 1](Screenshot 2024-11-04 015445.png)
+![Screenshot 2](Screenshot 2024-11-04 015421.png)
+   
